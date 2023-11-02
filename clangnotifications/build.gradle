@@ -7,11 +7,11 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.evillage'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 30
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 33
+        targetSdkVersion 30
         versionCode 30
         versionName "0.0.30"
         consumerProguardFiles 'proguard-rules.pro'
